@@ -34,7 +34,10 @@ const images = [
 // Use the `images` array
 // and for each one, create an img element
 // and display it on the page.
-
+function displayImages(imgArray) {
+    // ???
+}
+displayImages(images);
 
 
 function changePic(aPic, imgPath) {

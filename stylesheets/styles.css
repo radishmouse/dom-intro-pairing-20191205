@@ -9,11 +9,12 @@ html, body {
 
 .photo-container {
     display: flex;
-    height: 50%;        
+    height: 50%;    
+    width: 100%;    
 }
 
 .photo-container img {
-    width: 150px;
-    height: 100px;
-
+    /* width: 150px; */
+    /* height: 100px; */
+    height: 100%;
 }
