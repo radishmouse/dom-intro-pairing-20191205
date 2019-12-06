@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body { 
+    height: 100%;
+    width: 100%;
+}
+
+.photo-container {
+    display: flex;
+    height: 50%;        
+}
+
+.photo-container img {
+    width: 150px;
+    height: 100px;
+
+}
