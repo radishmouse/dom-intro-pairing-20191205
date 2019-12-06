@@ -9,12 +9,19 @@ html, body {
 
 .photo-container {
     display: flex;
-    height: 50%;    
-    width: 100%;    
+    /* height: 50%;     */
+    width: 100%;
+    
+}
+
+.photo-container > img {
+    /* width: 150px; */
+    /* height: 100px; */
+    /* height: 100%; */
+    display: block;
+    flex: 1 1 auto;
 }
 
 .photo-container img {
-    /* width: 150px; */
-    /* height: 100px; */
-    height: 100%;
+    width: 100%;
 }
